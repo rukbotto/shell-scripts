@@ -20,4 +20,4 @@ $ ln -svf ~/shell-script/git/rmlb.sh ~/bin/git_rmlb
 
 ### Git
 
-- `rmlb.sh`: Removes local branches which have their remote counterparts deleted.
+- `rmlb.sh`: Removes local branches which have their remote counterpart deleted.
