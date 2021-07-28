@@ -9,6 +9,6 @@ git fetch --all --prune && git branch -vv \
 	| grep ': gone]' \
 	| grep -v "\*" \
 	| awk '{ print $1; }' \
-	| xargs -r git branch -D
+	| xargs git branch -D
 
 echo -e "${COLOR_GREEN}>> Local branches removed${COLOR_NC}"
